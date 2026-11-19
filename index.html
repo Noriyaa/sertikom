@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sertikom</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" 
+     rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" 
+     crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
+    />
+</head>
+<body>
+
+
+    <!-- ini navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark nav-overlay">
+    <div class="container">
+    <a class="navbar-brand" href="#">JelajahNusa</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Destination</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Packages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+     
+
+  <!-- ini hero -->
+  <section class="hero">
+    <div class="judul">
+        <i class="fa-solid fa-plane"></i>
+        <span class="mainjud">JelajahNusa</span>
+    </div>
+
+    <div class="hero-body">
+        <h1 class="hero-title">Jelajahi Keindahan Indonesia Bersama JelajahNusa</h1>
+        <p class="hero-text">
+            Temukan pengalaman perjalanan yang berkesan, mulai dari pantai tropis,
+            pegunungan, hingga kekayaan budaya Nusantara.
+        </p>
+       <a href="#destinasi" class="btn btn-lg hero-btn">Explore Destinations</a>
+    </div>
+</section>
+
+<section class="feature-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+
+        <!-- Left: image + badge -->
+        <div class="col-lg-6">
+          <div class="img-wrap">
+            <img class="colimg" src="Asset/download (1).jpg" alt="Rumah modern dengan taman dan pencahayaan malam">
+            
+          </div>
+        </div>
+
+     
+        <div class="col-lg-6 text-start">
+          <h2 class="coljudul">Your Journey, <br>Our Passion</h2>
+
+          <p class="colteks">
+             JelajahNusa adalah mitra perjalanan wisata yang membantu Anda menemukan
+             destinasi, paket liburan, maupun pengalaman budaya yang sesuai keinginan.
+              Kami mengenal karakter setiap daerah dan membantu Anda memahami pilihan
+              perjalanan yang tersedia sebelum menentukan rencana.
+          </p>
+          <p class="colteks">
+            Pendampingan kami mencakup konsultasi tujuan wisata, penyusunan itinerary,
+    pembahasan biaya, hingga pengaturan transportasi dan akomodasi. Setiap
+    informasi disampaikan dengan jelas agar Anda dapat berangkat dengan lebih
+    tenang, baik untuk liburan keluarga, perjalanan bersama teman, maupun
+    petualangan seorang diri.
+           
+          </ul>
+          <ul class="about-list">
+    <li><i class="fa-solid fa-circle-check"></i> Konsultasi sesuai tujuan dan anggaran perjalanan</li>
+    <li><i class="fa-solid fa-circle-check"></i> Informasi destinasi dan harga paket yang transparan</li>
+    <li><i class="fa-solid fa-circle-check"></i> Pendampingan profesional dari perencanaan hingga kepulangan</li>
+</ul>
+
+<a href="#destinasi" class="btn btn-lg hero-btn">Lihat Destinasi</a>
+
+         
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <h1 class="destjud">Explore Popular Destinations</h1>
+
+  <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="Asset/Tanna lot , Bali.jpg"></div>
+        <div class="swiper-slide"><img src="Asset/Nusa Penida Travel Guide_ How to Visit Nusa Penida from Bali.jpg"></div>
+        <div class="swiper-slide"><img src="Asset/GWK Bali.jpg"></div>
+        <div class="swiper-slide"><img src="Asset/Keindahan Candi Prambanan yang Wajib Anda Ketahui - Cerita Wisata.jpg"></div>
+        <div class="swiper-slide"><img src="Asset/Pantai Ora Maluku Dengan Suasana Layaknya Maldives - Wisata Milenial.jpg"></div>
+      </div>
+   
+      <div class="swiper-pagination"></div>
+    </div>
+
+  
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    breakpoints: {
+        768:  { slidesPerView: 2 },
+        992:  { slidesPerView: 3 },
+    },
+});
+    </script>
+</body>
+</html>
