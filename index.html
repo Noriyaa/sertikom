@@ -30,10 +30,10 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Destination</a>
+          <a class="nav-link" href="#destinasi">Destination</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Packages</a>
@@ -49,58 +49,70 @@
 
   <!-- ini hero -->
   <section class="hero">
+  <div class="hero-left">
     <div class="judul">
-        <i class="fa-solid fa-plane"></i>
-        <span class="mainjud">JelajahNusa</span>
+      <i class="fa-solid fa-plane"></i>
+      <span class="mainjud">JelajahNusa</span>
     </div>
 
     <div class="hero-body">
-        <h1 class="hero-title">Jelajahi Keindahan Indonesia Bersama JelajahNusa</h1>
-        <p class="hero-text">
-            Temukan pengalaman perjalanan yang berkesan, mulai dari pantai tropis,
-            pegunungan, hingga kekayaan budaya Nusantara.
-        </p>
-       <a href="#destinasi" class="btn btn-lg hero-btn">Explore Destinations</a>
+      <h1 class="hero-title">Jelajahi Keindahan Indonesia Bersama JelajahNusa</h1>
+      <p class="hero-text">
+        Temukan pengalaman perjalanan yang berkesan, mulai dari pantai tropis,
+        pegunungan, hingga kekayaan budaya Nusantara.
+      </p>
+      <a href="#destinasi" class="btn btn-lg hero-btn">Explore Destinations</a>
     </div>
+  </div>
+
+  <div class="hero-visual">
+    <i class="fa-solid fa-plane plane plane-1"></i>
+    <i class="fa-solid fa-plane plane plane-2"></i>
+  </div>
 </section>
 
-<section class="feature-section">
-    <div class="container">
-      <div class="row align-items-center g-5">
+        <!-- ini about -->
+        <section class="feature-section" id="about">
+  <div class="container">
+    <div class="row align-items-center g-5">
 
-        <!-- Left: image + badge -->
-        <div class="col-lg-6">
-          <div class="img-wrap">
-            <img class="colimg" src="Asset/download (1).jpg" alt="Rumah modern dengan taman dan pencahayaan malam">
-            
-          </div>
+      <div class="col-lg-6">
+        <div class="img-wrap">
+          <img class="colimg" src="Asset/download (1).jpg"
+               alt="Jalan desa dengan pemandangan pegunungan hijau di Indonesia">
         </div>
+      </div>
 
-     
-        <div class="col-lg-6 text-start">
-          <h2 class="coljudul">Your Journey, <br>Our Passion</h2>
+      <div class="col-lg-6 text-start">
+        <h2 class="coljudul">Your Journey, <br>Our Passion</h2>
 
-          <p class="colteks">
-             JelajahNusa adalah mitra perjalanan wisata yang membantu Anda menemukan
-             destinasi, paket liburan, maupun pengalaman budaya yang sesuai keinginan.
-              Kami mengenal karakter setiap daerah dan membantu Anda memahami pilihan
-              perjalanan yang tersedia sebelum menentukan rencana.
-          </p>
-          <p class="colteks">
-            Pendampingan kami mencakup konsultasi tujuan wisata, penyusunan itinerary,
-    pembahasan biaya, hingga pengaturan transportasi dan akomodasi. Setiap
-    informasi disampaikan dengan jelas agar Anda dapat berangkat dengan lebih
-    tenang, baik untuk liburan keluarga, perjalanan bersama teman, maupun
-    petualangan seorang diri.
-           
-          </ul>
-          <ul class="about-list">
-    <li><i class="fa-solid fa-circle-check"></i> Konsultasi sesuai tujuan dan anggaran perjalanan</li>
-    <li><i class="fa-solid fa-circle-check"></i> Informasi destinasi dan harga paket yang transparan</li>
-    <li><i class="fa-solid fa-circle-check"></i> Pendampingan profesional dari perencanaan hingga kepulangan</li>
-</ul>
+        <p class="colteks">
+          JelajahNusa adalah mitra perjalanan wisata yang membantu Anda menemukan
+          destinasi, paket liburan, maupun pengalaman budaya yang sesuai keinginan.
+          Kami mengenal karakter setiap daerah dan membantu Anda memahami pilihan
+          perjalanan yang tersedia sebelum menentukan rencana.
+        </p>
 
-<a href="#destinasi" class="btn btn-lg hero-btn">Lihat Destinasi</a>
+        <p class="colteks">
+          Pendampingan kami mencakup konsultasi tujuan wisata, penyusunan itinerary,
+          pembahasan biaya, hingga pengaturan transportasi dan akomodasi. Setiap
+          informasi disampaikan dengan jelas agar Anda dapat berangkat dengan lebih
+          tenang, baik untuk liburan keluarga, perjalanan bersama teman, maupun
+          petualangan seorang diri.
+        </p>
+
+        <ul class="about-list">
+          <li><i class="fa-solid fa-circle-check"></i> Konsultasi sesuai tujuan dan anggaran perjalanan</li>
+          <li><i class="fa-solid fa-circle-check"></i> Informasi destinasi dan harga paket yang transparan</li>
+          <li><i class="fa-solid fa-circle-check"></i> Pendampingan profesional dari perencanaan hingga kepulangan</li>
+        </ul>
+
+        <a href="#destinasi" class="btn btn-lg hero-btn">Lihat Destinasi</a>
+      </div>
+
+    </div>
+  </div>
+</section>
 
          
         </div>
@@ -109,20 +121,215 @@
     </div>
   </section>
 
-  <h1 class="destjud">Explore Popular Destinations</h1>
+  <section id="destinasi" class="destinations">
+  <h2 class="destjud">Explore Popular Destinations</h2>
 
   <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="Asset/Tanna lot , Bali.jpg"></div>
-        <div class="swiper-slide"><img src="Asset/Nusa Penida Travel Guide_ How to Visit Nusa Penida from Bali.jpg"></div>
-        <div class="swiper-slide"><img src="Asset/GWK Bali.jpg"></div>
-        <div class="swiper-slide"><img src="Asset/Keindahan Candi Prambanan yang Wajib Anda Ketahui - Cerita Wisata.jpg"></div>
-        <div class="swiper-slide"><img src="Asset/Pantai Ora Maluku Dengan Suasana Layaknya Maldives - Wisata Milenial.jpg"></div>
-      </div>
-   
-      <div class="swiper-pagination"></div>
-    </div>
+    <div class="swiper-wrapper">
 
+      <div class="swiper-slide">
+        <article class="dest-card">
+          <img src="Asset/Tanna lot , Bali.jpg" alt="Bali">
+          <div class="dest-body">
+            <span class="dest-loc"><i class="fa-solid fa-location-dot"></i> Bali</span>
+            <h3 class="dest-title">Bali</h3>
+            <p class="dest-text">Tempat wisata populer dengan pemandangan yang indah nan ikonik.</p>
+            <a href="detail/detail2.html" class="dest-link">Lihat Detail <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="swiper-slide">
+        <article class="dest-card">
+          <img src="Asset/pexels-angke-widya-2152285812-32157316.jpg" alt="Raja Ampat">
+          <div class="dest-body">
+            <span class="dest-loc"><i class="fa-solid fa-location-dot"></i> Papua Barat Daya</span>
+            <h3 class="dest-title">Raja Ampat</h3>
+            <p class="dest-text">Perkumpulan pulau indah nan menawan.</p>
+            <a href="detail/detail3.html" class="dest-link">Lihat Detail <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="swiper-slide">
+        <article class="dest-card">
+          <img src="Asset/pexels-lim-jia-le-1643207804-34390984.jpg" alt="Bromo">
+          <div class="dest-body">
+            <span class="dest-loc"><i class="fa-solid fa-location-dot"></i> Jawa Timur</span>
+            <h3 class="dest-title">Bromo</h3>
+            <p class="dest-text">Gunung dengan pemandangan sunset yang indah.</p>
+            <a href="detail/detail4.html" class="dest-link">Lihat Detail <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="swiper-slide">
+        <article class="dest-card">
+          <img src="Asset/pexels-terasdondon-31987649.jpg" alt="Labuan Bajo">
+          <div class="dest-body">
+            <span class="dest-loc"><i class="fa-solid fa-location-dot"></i> NTT</span>
+            <h3 class="dest-title">Labuan Bajo</h3>
+            <p class="dest-text">Pemandangan indah yang dilengkapi oleh perahu untuk menemani harimu.</p>
+            <a href="detail/detail5.html" class="dest-link">Lihat Detail <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="swiper-slide">
+        <article class="dest-card">
+          <img src="Asset/Pantai Ora Maluku Dengan Suasana Layaknya Maldives - Wisata Milenial.jpg" alt="Pantai Ora">
+          <div class="dest-body">
+            <span class="dest-loc"><i class="fa-solid fa-location-dot"></i> Maluku</span>
+            <h3 class="dest-title">Pantai Ora</h3>
+            <p class="dest-text">Pantai dengan air jernih dan cottage di atas laut yang terasa seperti Maladewa.</p>
+            <a href="detail/detail.html" class="dest-link">Lihat Detail <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+<!-- ini paket -->
+<div class="package-grid" id="packageGrid">
+
+
+  <article class="package-card">
+    <div class="package-img-wrap">
+      <img class="package-img" src="Asset/Tanna lot , Bali.jpg" alt="Bali Escape">
+      <span class="package-badge"><i class="fa-regular fa-clock"></i> 3 Hari 2 Malam</span>
+    </div>
+    <div class="package-body">
+      <h3 class="package-name">Bali Escape</h3>
+      <p class="package-dest"><i class="fa-solid fa-location-dot"></i>Bali</p>
+      <p class="package-highlight">Pantai, budaya, dan sunset</p>
+      <div class="package-footer">
+        <p class="package-price">Rp2.450.000 <small>/ orang</small></p>
+        <button class="btn hero-btn package-btn"
+                data-name="Bali Escape"
+                data-dest="Bali"
+                data-dur="3 Hari 2 Malam"
+                data-high="Pantai, budaya, dan sunset"
+                data-price="Rp2.450.000"
+                data-img="Asset/Tanna lot, Bali.jpg"><a href="detailpaket/paket.html?id=bali" class="btn hero-btn package-btn">Detail Paket</a></button>
+      </div>
+    </div>
+  </article>
+
+
+  <article class="package-card">
+    <div class="package-img-wrap">
+      <img class="package-img" src="Asset/pexels-lim-jia-le-1643207804-34390984.jpg" alt="Bromo Sunrise Trip">
+      <span class="package-badge"><i class="fa-regular fa-clock"></i> 2 Hari 1 Malam</span>
+    </div>
+    <div class="package-body">
+      <h3 class="package-name">Bromo Sunrise Trip</h3>
+      <p class="package-dest"><i class="fa-solid fa-location-dot"></i>Gunung Bromo, Jawa Timur</p>
+      <p class="package-highlight">Sunrise dan lautan pasir</p>
+      <div class="package-footer">
+        <p class="package-price">Rp1.350.000 <small>/ orang</small></p>
+        <button class="btn hero-btn package-btn"
+                data-name="Bromo Sunrise Trip"
+                data-dest="Gunung Bromo, Jawa Timur"
+                data-dur="2 Hari 1 Malam"
+                data-high="Sunrise dan lautan pasir"
+                data-price="Rp1.350.000"
+                data-img="Asset/bromo.jpg"><a href="detailpaket/paket.html?id=bromo" class="btn hero-btn package-btn">Detail Paket</a></button>
+      </div>
+    </div>
+  </article>
+
+
+  <article class="package-card">
+    <div class="package-img-wrap">
+      <img class="package-img" src="Asset/pexels-angke-widya-2152285812-32157316.jpg" alt="Raja Ampat Discovery">
+      <span class="package-badge"><i class="fa-regular fa-clock"></i> 4 Hari 3 Malam</span>
+    </div>
+    <div class="package-body">
+      <h3 class="package-name">Raja Ampat Discovery</h3>
+      <p class="package-dest"><i class="fa-solid fa-location-dot"></i>Raja Ampat, Papua Barat Daya</p>
+      <p class="package-highlight">Island hopping dan snorkeling</p>
+      <div class="package-footer">
+        <p class="package-price">Rp5.750.000 <small>/ orang</small></p>
+        <button class="btn hero-btn package-btn"
+                data-name="Raja Ampat Discovery"
+                data-dest="Raja Ampat, Papua Barat Daya"
+                data-dur="4 Hari 3 Malam"
+                data-high="Island hopping dan snorkeling"
+                data-price="Rp5.750.000"
+                data-img="Asset/rajaampat.jpg"><a href="detailpaket/paket.html?id=rajaAmpat" class="btn hero-btn package-btn">Detail Paket</a></a>
+      </div>
+    </div>
+  </article>
+
+
+  <article class="package-card">
+    <div class="package-img-wrap">
+      <img class="package-img" src="Asset/pexels-terasdondon-31987649.jpg" alt="Labuan Bajo Explorer">
+      <span class="package-badge"><i class="fa-regular fa-clock"></i> 3 Hari 2 Malam</span>
+    </div>
+    <div class="package-body">
+      <h3 class="package-name">Labuan Bajo Explorer</h3>
+      <p class="package-dest"><i class="fa-solid fa-location-dot"></i>Labuan Bajo, NTT</p>
+      <p class="package-highlight">Pulau Komodo dan sailing</p>
+      <div class="package-footer">
+        <p class="package-price">Rp3.950.000 <small>/ orang</small></p>
+        <button class="btn hero-btn package-btn"
+                data-name="Labuan Bajo Explorer"
+                data-dest="Labuan Bajo, NTT"
+                data-dur="3 Hari 2 Malam"
+                data-high="Pulau Komodo dan sailing"
+                data-price="Rp3.950.000"
+                data-img="Asset/labuanbajo.jpg"><a href="detailpaket/paket.html?id=labuanbajo" class="btn hero-btn package-btn">Detail Paket</a></button>
+      </div>
+    </div>
+  </article>
+
+  
+  <article class="package-card">
+    <div class="package-img-wrap">
+      <img class="package-img" src="Asset/Pantai Ora Maluku Dengan Suasana Layaknya Maldives - Wisata Milenial.jpg" alt="Pantai Ora Retreat">
+      <span class="package-badge"><i class="fa-regular fa-clock"></i> 3 Hari 2 Malam</span>
+    </div>
+    <div class="package-body">
+      <h3 class="package-name">Pantai Ora Retreat</h3>
+      <p class="package-dest"><i class="fa-solid fa-location-dot"></i>Pantai Ora, Seram, Maluku</p>
+      <p class="package-highlight">Bungalow di atas air dan snorkeling</p>
+      <div class="package-footer">
+        <p class="package-price">Rp4.750.000 <small>/ orang</small></p>
+        <button class="btn hero-btn package-btn"
+                data-name="Pantai Ora Retreat"
+                data-dest="Pantai Ora, Seram, Maluku"
+                data-dur="3 Hari 2 Malam"
+                data-high="Bungalow di atas air dan snorkeling"
+                data-price="Rp4.750.000"
+                data-img="Asset/pantaiora.jpg"><a href="detailpaket/paket.html?id=pantaiora" class="btn hero-btn package-btn">Detail Paket</a></button>
+      </div>
+    </div>
+  </article>
+
+</div>
+
+
+<div class="modal fade" id="packageModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content package-modal">
+      <img id="modalImg" class="modal-img" src="" alt="">
+      <div class="modal-body p-4">
+        <h3 id="modalName" class="modal-name"></h3>
+        <ul class="modal-info">
+          <li><i class="fa-solid fa-location-dot"></i> <span id="modalDest"></span></li>
+          <li><i class="fa-regular fa-clock"></i> <span id="modalDur"></span></li>
+          <li><i class="fa-solid fa-star"></i> <span id="modalHigh"></span></li>
+          <li><i class="fa-solid fa-tag"></i> <span id="modalPrice"></span> / orang</li>
+        </ul>
+        <button type="button" class="btn hero-btn" data-bs-dismiss="modal">Tutup</button>
+      </div>
+    </div>
+  </div>
+</div>
   
 
 

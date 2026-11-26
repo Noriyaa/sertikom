@@ -1,0 +1,141 @@
+.detail-section {
+  background: var(--bg);
+  padding: 140px 0 100px;
+  min-height: 80vh;
+}
+
+.detail-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 560px;
+  object-fit: cover;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(26, 66, 104, 0.18);
+}
+
+.detail-name {
+  font-size: clamp(1.9rem, 3.5vw, 2.8rem);
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--navy);
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.detail-meta {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  margin: 0 0 1rem;
+  color: #4b5563;
+}
+
+.detail-meta i {
+  color: var(--accent);
+  margin-right: 0.4rem;
+}
+
+.detail-price {
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: var(--accent);
+  margin-bottom: 1.5rem;
+}
+
+.detail-price small {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #6b7280;
+}
+
+.detail-sub {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin: 1.5rem 0 0.4rem;
+}
+
+.detail-highlight {
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0 0 0.4rem;
+}
+
+.detail-desc {
+  color: #4b5563;
+  line-height: 1.75;
+  margin: 0;
+}
+
+.detail-fac {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 1rem;
+  margin: 0;
+  color: #4b5563;
+}
+
+.detail-fac i {
+  color: var(--accent);
+  margin-right: 0.4rem;
+}
+
+.detail-close-btn {
+  border: 1px solid #d5cde0;
+  border-radius: 50px;
+  padding: 0.7rem 2rem;
+  color: #4b5563;
+}
+
+.detail-close-btn:hover {
+  background: #f1e6fb;
+  color: var(--accent);
+}
+
+.detail-empty {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.detail-empty i {
+  font-size: 2.5rem;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.detail-empty h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.detail-empty p {
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+.book-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%);
+  z-index: 1080;
+  max-width: calc(100% - 2rem);
+  background: #1f2933;
+  color: #fff;
+  padding: 0.9rem 1.4rem;
+  border-radius: 50px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.book-toast i {
+  color: #7be0a4;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 575px) {
+  .detail-fac { grid-template-columns: 1fr; }
+}

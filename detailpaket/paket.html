@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detail Paket - JelajahNusa</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="paket.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg nav-overlay">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">JelajahNusa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#destinasi">Destination</a></li>
+          <li class="nav-item"><a class="nav-link active" href="index.html#packages">Packages</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="detail-section">
+    <div class="container">
+
+      <div id="detailContent" class="d-none">
+        <div class="row g-5 align-items-start">
+
+          <div class="col-lg-6">
+            <div id="dImages">
+              <img class="detail-img d-none" data-pkg="bali" src="../Asset/Tanna lot , Bali.jpg" alt="Bali Escape">
+              <img class="detail-img d-none" data-pkg="bromo" src="../Asset/pexels-lim-jia-le-1643207804-34390984.jpg" alt="Bromo Sunrise Trip">
+              <img class="detail-img d-none" data-pkg="rajaampat" src="../Asset/pexels-angke-widya-2152285812-32157316.jpg" alt="Raja Ampat Discovery">
+              <img class="detail-img d-none" data-pkg="labuanbajo" src="../Asset/pexels-terasdondon-31987649.jpg" alt="Labuan Bajo Explorer">
+              <img class="detail-img d-none" data-pkg="pantaiora" src="../Asset/Pantai Ora Maluku Dengan Suasana Layaknya Maldives - Wisata Milenial.jpg" alt="Pantai Ora Retreat">
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h1 id="dName" class="detail-name"></h1>
+
+            <ul class="detail-meta">
+              <li><i class="fa-solid fa-location-dot"></i> <span id="dDest"></span></li>
+              <li><i class="fa-regular fa-clock"></i> <span id="dDur"></span></li>
+            </ul>
+
+            <p class="detail-price"><span id="dPrice"></span> <small>/ orang</small></p>
+
+            <h2 class="detail-sub">Highlight Perjalanan</h2>
+            <p id="dHighlight" class="detail-highlight"></p>
+            <p id="dDesc" class="detail-desc"></p>
+
+            <h2 class="detail-sub">Fasilitas yang Termasuk</h2>
+            <ul id="dFac" class="detail-fac"></ul>
+
+            <div class="d-flex flex-wrap gap-2 mt-4">
+              <button type="button" id="bookBtn" class="btn hero-btn mt-0">Pesan Paket</button>
+              <a href="index.html#packages" class="btn detail-close-btn">Tutup</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div id="detailEmpty" class="detail-empty d-none">
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <h1>Paket tidak ditemukan</h1>
+        <p>Paket yang Anda cari tidak tersedia. Pilih salah satu paket dari daftar.</p>
+        <a href="index.html#packages" class="btn hero-btn">Lihat Semua Paket</a>
+      </div>
+
+    </div>
+  </main>
+
+  <div id="bookToast" class="book-toast d-none" role="status">
+    <i class="fa-solid fa-circle-check"></i>
+    Permintaan pemesanan berhasil disimulasikan. Mengarahkan ke formulir kontak...
+  </div>
+
+  <footer class="site-footer">
+    <div class="container text-center">
+      <p>&copy; 2026 JelajahNusa. Semua hak dilindungi.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="paket.js"></script>
+</body>
+</html>
